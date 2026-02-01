@@ -1,3 +1,4 @@
+# fix: initial project setup with FastAPI and SQLAlchemy
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
