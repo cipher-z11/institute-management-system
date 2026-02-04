@@ -1,3 +1,4 @@
+# fix: add Student and Course models
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain.chains import RetrievalQA
