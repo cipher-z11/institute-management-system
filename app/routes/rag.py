@@ -15,3 +15,5 @@ def query_institute_data(request: QueryRequest, db: Session = Depends(get_db)):
     """
     result = get_rag_answer(request.question, db)
     return result
+
+# Add Faculty and Fee models
