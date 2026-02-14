@@ -60,3 +60,5 @@ def delete_student(student_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Student not found")
     db.delete(student)
     db.commit()
+
+# Add course and faculty routes
