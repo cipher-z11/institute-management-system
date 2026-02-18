@@ -1,4 +1,4 @@
-# updated: 2026-05-07
+# fix: add Pydantic schemas and input validation
 from pydantic_settings import BaseSettings
 
 
