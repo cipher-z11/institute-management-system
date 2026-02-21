@@ -14,3 +14,5 @@ def get_db():
         yield db
     finally:
         db.close()
+
+# Add Pydantic schemas and input validation
