@@ -1,4 +1,4 @@
-# fix: add Faculty model and routes
+# fix: integrate LangChain for RAG pipeline
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.database import get_db
