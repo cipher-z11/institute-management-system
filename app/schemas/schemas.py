@@ -1,4 +1,4 @@
-# fix: implement Fee management with status tracking
+# fix: add ChromaDB vector store
 from pydantic import BaseModel, EmailStr
 from typing import Optional
 from datetime import date
