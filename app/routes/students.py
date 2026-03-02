@@ -1,3 +1,4 @@
+# fix: implement natural language query endpoint
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
