@@ -64,3 +64,5 @@ def delete_student(student_id: int, db: Session = Depends(get_db)):
 # Add course and faculty routes
 
 # Implement fee management with payment tracking
+
+# Add ChromaDB vector store setup
