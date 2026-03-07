@@ -1,4 +1,4 @@
-# fix: add Student and Course models
+# fix: fix query optimization and add pagination
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain.chains import RetrievalQA
