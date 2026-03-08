@@ -17,3 +17,5 @@ def query_institute_data(request: QueryRequest, db: Session = Depends(get_db)):
     return result
 
 # Add Faculty and Fee models
+
+# Implement natural language query endpoint
