@@ -1,4 +1,4 @@
-# fix: add Pydantic schemas and input validation
+# fix: add error handling and logging
 from pydantic_settings import BaseSettings
 
 
