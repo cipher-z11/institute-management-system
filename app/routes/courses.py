@@ -40,3 +40,5 @@ def delete_course(course_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Course not found")
     db.delete(course)
     db.commit()
+
+# Add error handling and logging
