@@ -1,4 +1,4 @@
-# fix: implement student CRUD endpoints
+# fix: fix edge cases in fee status computation
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
