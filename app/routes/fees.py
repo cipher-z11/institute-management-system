@@ -1,4 +1,4 @@
-# fix: add .env.example and requirements
+# fix: code cleanup and remove unused imports
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
