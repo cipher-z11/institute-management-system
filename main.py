@@ -1,3 +1,4 @@
+# fix: optimize SQLAlchemy queries for performance
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import students, courses, faculty, fees, rag
