@@ -1,3 +1,4 @@
+# updated: 2026-05-11
 # fix: add error handling and logging
 from pydantic_settings import BaseSettings
 
